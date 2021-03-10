@@ -1,0 +1,80 @@
+// import axios from 'axios';
+// import React from 'react';
+// import { useState } from 'react';
+
+
+
+// const Accordian = () => {
+
+//   const [teamData, setTeamData] = useState([]);
+
+//   const nbaData = async () => {
+//     const response = await axios.get("https://www.balldontlie.io/api/v1/teams/")
+
+//     setTeamData(response.data)
+//   }
+
+//   //const renderAccordion = () => {
+//   function renderAccordion(team, index) {
+//     return (
+//       <>
+//         <div class="accordion" id="accordionExample" key={index}>
+//   <div class="accordion-item">
+//     <h2 class="accordion-header" id="headingOne">
+//       <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+//         {team.city}
+//       </button>
+//     </h2>
+//     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+//       <div class="accordion-body">
+//         <ul>
+//           <li>{team.abreviation}</li>
+//           <li>{team.city}</li>
+//           <li>{team.conference}</li>
+//           <li>{team.division}</li>
+//           <li>{team.full_name}</li>
+//         </ul>
+//       </div>
+//     </div>
+//   </div>
+//   <div class="accordion-item">
+//     <h2 class="accordion-header" id="headingTwo">
+//       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+//         Accordion Item #2
+//       </button>
+//     </h2>
+//     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+//       <div class="accordion-body">
+//         <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+//       </div>
+//     </div>
+//   </div>
+//   <div class="accordion-item">
+//     <h2 class="accordion-header" id="headingThree">
+//       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+//         Accordion Item #3
+//       </button>
+//     </h2>
+//     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+//       <div class="accordion-body">
+//         <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+//       </div>
+//     </div>
+//   </div>
+// </div>
+//       </>
+      
+//     )
+//   }
+    
+//   }
+  
+//   useEffect(() => {
+//     nbaData();
+//   }, [])
+  
+
+  
+
+
+// export default Accordian;
